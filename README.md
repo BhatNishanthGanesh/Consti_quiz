@@ -1,5 +1,3 @@
-Sure, here's a basic README file for the provided code:
-
 ---
 
 # Constitution Exam Quiz App using Python with tkinter
