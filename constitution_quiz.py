@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 
+#100 questions
 questions = [
     "What is Constitution?",
     "Who was the President of the constituent assembly?",
@@ -104,6 +105,7 @@ questions = [
     "For an ethical engineers responsibility is"
 ]
 
+#options for the question
 options = [
     ["A. Ordinary Law", "B. Fundamental law of the nation", "C. Basic law book", "D. All these."],
     ["A. Dr. Rajendra Prasad", "B. Dr. B.R Ambedkar", "C. M.V Kamath", "D. Jawaharlal Nehru"],
@@ -207,6 +209,7 @@ options = [
     ["A. Legal only", "B. Moral only", "C. social only", "D. Both legal and moral"]
 ]
 
+#Answers for the questions
 answers = ["B", "A", "B", "B", "B", "B", "A", "A", "C", "B", "C", "C", "C", "A", "C", "B", "C", "C", "C", "C", "C", "B", "B", "B", "C", "A", "C", "C", "A", "B", "B", "C", "C", "B", "C", "A", "B", "D", "B", "D","B", "D", "A", "A", "C", "C", "B", "A", "D", "D", "B", "C", "B", "A", "B", "A", "A", "D", "B", "C", "B", "B", "C", "B", "D", "C", "C", "B", "B", "A", "D", "B", "B", "D", "A", "B", "B", "D", "C", "D", "A", "B", "D", "B", "C", "D", "A", "C", "C", "D", "A", "A", "A", "D", "C", "A", "B", "B", "B", "D"]
 
 class QuizApp:
